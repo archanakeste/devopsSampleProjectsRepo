@@ -10,9 +10,8 @@ public class StudentResources {
 	@RequestMapping("students")
 	List<Students> getStudentDetails(){
 		
-		
+		// added student Details here 
 		List<Students> listStds = new ArrayList<Students>();
-			
 		Students student1=new Students();
 		student1.setName("ram");
 		student1.setStudentId(16);
